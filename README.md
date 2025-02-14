@@ -38,13 +38,13 @@ Stock-news is a Python program that lets user request emails about the most acti
 Run the program by providing your email and API choice (either "news" or "stocks"):
 
 ```bash
-python3 news.py <your_email_address> <api_choice>
+python3 main.py <your_email_address> <api_choice>
 ```
 
 ## Example:
 
 ```bash
-python3 news.py user@example.com stocks
+python3 main.py user@example.com stocks
 ```
 ### Options for `<api_choice>`:
 - `stocks` - Retrieves the most active stocks by volume or trades.
